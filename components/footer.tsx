@@ -62,15 +62,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <a href="#inicio" className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center border border-primary/30">
-                <span className="text-primary font-bold text-xl">T</span>
-              </div>
-              <span className="font-semibold text-lg">
-                <span className="text-foreground">Taurus</span>
-                <span className="text-muted-foreground ml-1">Futebol Training</span>
-              </span>
-            </a>
+         
 
             <p className="text-muted-foreground mb-6 max-w-sm">
               Treinos técnicos de futebol, alta performance e acompanhamento 
@@ -79,9 +71,7 @@ export function Footer() {
 
             {/* Contact Info */}
             <div className="space-y-3">
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <img src="/taurus-logo.svg" alt="Taurus Logo" className="h-8 w-auto" />
-              </div>
+    
               <a
                 href="https://wa.me/351962616880"
                 target="_blank"
